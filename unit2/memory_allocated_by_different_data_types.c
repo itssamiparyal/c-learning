@@ -1,3 +1,5 @@
+// program to see the memory allocation of various datatypes
+
 #include <stdio.h>
 
 void main(){

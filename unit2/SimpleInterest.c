@@ -1,3 +1,5 @@
+// program to calculate simple interest.
+
 #include<stdio.h>
 
 // if we write void main (){} not value is returned as for int main(){return0;} we need to write return 0;

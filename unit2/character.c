@@ -1,14 +1,18 @@
-// program to conver char value to Ascil value
+// program to converts char value to Ascil value
 
-#include<stdio.h>
+// header files
+#include<stdio.h> 
 
+// main function
 void main(){
+    // variable declaration and assignment
     char alpha = 'B';
     char ws = ' ';
     char hash = '#';
     char minus = '-';
     char dollar = '$';
 
+    // printing of Ascil value of chars
     printf("Ascil value of %c is %d\n",alpha,alpha);
     printf("Ascil value of %c is %d\n",ws,ws);
     printf("Ascil value of %c is %d\n",hash,hash);
