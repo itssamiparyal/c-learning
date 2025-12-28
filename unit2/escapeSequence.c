@@ -1,3 +1,5 @@
+// program to learn various escape sequences like \b \n \r \t etc.
+
 #include<stdio.h>
 
 int main(){

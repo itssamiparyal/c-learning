@@ -1,4 +1,5 @@
 
+// program that reades file of structure
 #include <stdio.h> 
 int main() {
     FILE *fp;

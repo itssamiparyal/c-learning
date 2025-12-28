@@ -1,3 +1,5 @@
+// program that  calculates gpa
+
 #include <stdio.h>
 int main(){
     char n[20],g[6];

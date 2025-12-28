@@ -1,3 +1,5 @@
+// program that reads records
+
 #include <stdio.h>
 void main(){
     FILE *fp;
