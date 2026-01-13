@@ -8,13 +8,17 @@ c) If a deposit is more than Rs. 5,000 and is for 1 year or more the interest ra
 compounded annually.
 d) On all deposits for 5 years or more interest is 10 percent compounded annually
 e) On all other deposits not covered by the above conditions the interest is 3 percent
-compounded annually. */
+compounded annually.
+At the time of withdrawal a customer data is given with the amount deposited and the
+number of years the money has been with the bank. Write a program to obtain the money in
+the customer’s account and the interest credited at the time on withdrawal.
+*/
 
 #include <stdio.h>
 #include <math.h>
 
 int main() {
-    float deposit, interest_rate, interest;
+    float deposit, interest_rate, interest, total_amount;
     int years;
 
     printf("Enter deposit amount: ");
@@ -38,9 +42,11 @@ int main() {
 
     // Compound interest formula: A = P*(1 + r/100)^t
     interest = deposit * pow(1 + interest_rate / 100, years) - deposit;
+    total_amount = deposit + interest;
 
     printf("Interest Rate = %.2f%%\n", interest_rate);
-    printf("Compound Interest = %.2f\n", interest);
+    printf("Interest credited = %.2f\n", interest);
+    printf("Total amount at withdrawal = %.2f\n", total_amount);
 
     return 0;
 }
