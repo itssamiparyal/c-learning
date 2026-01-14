@@ -13,7 +13,7 @@ int main() {
     printf("Multiplication = %d\n", a * b);
 
     if (b != 0) {
-        printf("Division = %d\n", a / b);
+        printf("Division = %.2f\n", (float)a / b);
     } else {
         printf("Division not possible (division by zero)\n");
     }
