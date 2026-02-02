@@ -1,15 +1,23 @@
 #include<stdio.h>
+#define SIZE 20
 
 int main(){
     //compiler understand a[] == a[7]
-    int a[] = {5,3,4,7,8,6,9};
+    int a[SIZE],n;
+    printf("Enter number of terms: ");
+    scanf("%d",&n);
+
+    for(int i = 0; i< n; i++){
+        printf("A[%d]= ",i);
+        scanf("%d",&a[i]);
+    }
     printf("Before sorting:\n");
-    for(int i = 0; i < 7; i++){
-        printf("%d",a[i]);
+    for(int i = 0; i < n; i++){
+        printf("%d ",a[i]);
     }
     //sorting process
-    for(int i = 0; i < 6; i++){
-        for(int j = i+1;j<7;j++){
+    for(int i = 0; i < n-1; i++){
+        for(int j = i+1;j<n;j++){
             int temp;
             if(a[i] > a[j]){
                 temp = a[i];
@@ -19,8 +27,8 @@ int main(){
         }
     }
     printf("\nAfter sorting:\n");
-    for(int i = 0; i < 7; i++){
-        printf("%d",a[i]);
+    for(int i = 0; i < n; i++){
+        printf("%d ",a[i]);
     }
     return 0;
 }
