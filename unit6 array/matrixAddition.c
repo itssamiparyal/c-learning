@@ -4,7 +4,7 @@
 
 int main(){
     int a[ROWS][COLS],b[ROWS][COLS],c[ROWS][COLS],i,j,p,q;
-    printf("Enter the size of all three matrices:(pXq)\n");
+    printf("Enter the size of all matrices:(pXq)\n");
     scanf("%dx%d",&p,&q);
 
     printf("Enter the values in matrix a:\n");
