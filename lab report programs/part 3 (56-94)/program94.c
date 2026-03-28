@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define STUDENTS 20
+#define STUDENTS 3
 
 struct Student {
     int roll;

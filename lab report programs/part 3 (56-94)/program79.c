@@ -7,8 +7,8 @@ int main()
     int matrix[10][10], transpose[10][10];
     int i, j, rows, cols;
 
-    printf("Enter number of rows and columns: ");
-    scanf("%d %d", &rows, &cols);
+    printf("Enter number of rows and columns(rxc): ");
+    scanf("%dx%d", &rows, &cols);
 
     printf("Enter matrix elements:\n");
 

@@ -31,7 +31,7 @@ int main()
     printf("\nNames in alphabetical order:\n");
     for (i = 0; i < 50; i++)
     {
-        printf("%s\n", name[i]);
+        printf("%s\t", name[i]);
     }
 
     return 0;
