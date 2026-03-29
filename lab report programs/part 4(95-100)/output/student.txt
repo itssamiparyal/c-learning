@@ -1,0 +1,3 @@
+101|Ram Sharma|B.Sc. IT|2
+101|Sita Rai|BBA|1
+101|Hari Karki|B.Sc. IT|3
