@@ -1,1 +1,1 @@
-Average = 30.00
+Average = 35.00
